@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+body {
+  font-family: serif;
+  background-color: #e8ebee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  background-color: #9BC7EB;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #607A91;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #36434e
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #36434e
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #607A91;
+  border-bottom: 1px solid #607A91;
+  padding: 12px;
+}
+
+.divider {
+  width: 1px;
+  background-color: #607A91;
+  height: 98px;
+  margin: 0 15px;
+}
+
+.ok {
+  background: #0072C2;
+  color: white;
+  padding: 7px 12px;
+  border: 1px solid #0072C2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+.water-img {
+  width: 50px;
+}
+
+.popup-input {
+  margin-top: 2px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
