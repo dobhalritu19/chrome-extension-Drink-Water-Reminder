@@ -1,6 +1,6 @@
 chrome.alarms.create("drinkWaterReminder", {
-  delayInMinutes: 1,
-  periodInMinutes: 1
+  delayInMinutes: 60,
+  periodInMinutes: 60
 });
 
 chrome.alarms.onAlarm.addListener((alarm) => {
